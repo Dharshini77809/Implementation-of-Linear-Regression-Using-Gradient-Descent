@@ -58,7 +58,12 @@ To write a program to predict the profit of a city using the linear regression m
 
 #### Step 12: End
 ## Program:
-python
+```
+/*
+Program to implement the linear regression using gradient descent.
+Developed by:S.Priyadharshini
+RegisterNumber:25017590
+
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -96,6 +101,11 @@ prediction= prediction.reshape(-1,1)
 pre = scaler.inverse_transform (prediction)
 print("prediction =",prediction)
 print(f"Predicted value: {pre}")
+
+
+*/
+```
+
 
 
 ## Output:
